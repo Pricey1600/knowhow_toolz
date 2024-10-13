@@ -1,7 +1,0 @@
-if exists %usrDir% (
-	echo:
-	echo "ERROR: Old user file has not been removed. Please remove manually."
-	echo:
-	pause
-	exit
-)

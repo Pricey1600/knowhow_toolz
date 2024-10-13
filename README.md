@@ -12,6 +12,8 @@ Created to ease frustrations with the time consuming and tedious proccesses at w
 1. Plug this USB stick into the target computer and run the 'RUNTOOLZ' file.
 2. Accept the prompt to run as Administrator.
 3. Follow the on-screen instructions
+
+![Main menu](images/menu_screenshot.jpg)
 ## Tool decriptions
 ### Add local user, Remove Online User
 Used when a computer has to be initially set up using an online account (for S Mode). This tool will create a new admin user and remove the old 'online account' from the device. During

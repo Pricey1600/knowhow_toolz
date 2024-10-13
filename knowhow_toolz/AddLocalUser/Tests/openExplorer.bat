@@ -1,1 +1,0 @@
-%SystemRoot%\explorer.exe "c:\Users"

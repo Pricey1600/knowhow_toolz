@@ -1,2 +1,0 @@
-set currentUser=%USERNAME%
-echo %USERNAME% > user2delete.txt

@@ -1,4 +1,0 @@
-set /A drive = "C:\Users\"
-set /A username = %USERNAME%
-set /A removeDrive = drive + username
-echo removeDrive

@@ -1,0 +1,2 @@
+del /F/Q/S/A %removeDrive% > NUL
+rmdir /Q/S %removeDrive%

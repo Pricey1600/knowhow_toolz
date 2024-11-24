@@ -5,7 +5,7 @@
 A collection of custom batch files to speed up the workflow of staff working in retail IT support services. This includes tools to create a Windows 11 local admin account and remove a temporary online account used to set-up computers in Windows S Mode.
 These tools are designed to be run from external storage device such as a USB thumbdrive on Windows 11 machines.
 
-Created to ease frustrations with the time consuming and tedious proccesses at work.
+Created to ease frustrations with the time consuming and tedious proccesses at work. Added potential benefit of allowing less knowledgeable staff to complete more advanced tasks.
 
 > Note: due to file size restrictions the app installers have not been included in this repo.
 ## How to use

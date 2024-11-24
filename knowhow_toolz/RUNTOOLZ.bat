@@ -5,15 +5,20 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 
 set "help=%~dp0README.txt"
 set "tool1=%~dp0AddLocalUser\RUN_ADD_USER.bat"
-set "tool2=%~dp0InstallApp\InstallApps.bat"
+set "tool2=%~dp0AddWifi\AddWifi.bat"
+set "tool3=%~dp0InstallApp\InstallApps.bat"
+set "tool4=%~dp0RepairTools\RepairTools.bat"
 
 echo __________________________________________________________________
 echo:
-echo Welcome to the Custom Tool Stick for Knowhow! The tools available are as follows:
+echo Welcome to the Custom Tool Stick for Knowhow! (Version 2)
+echo The tools available are as follows:
 :select
 echo:
 echo (1) - Add Local User, Remove Online User
-echo (2) - Install Apps
+echo (2) - Connect WIFI
+echo (3) - Install Apps
+echo (4) - Repair Tools
 echo (?) - Help
 echo (x) - Exit
 echo:
@@ -30,6 +35,14 @@ if "%choice%"=="1" (
 if "%choice%"=="2" (
 	echo __________________________________________________________________
     	%tool2%
+)
+if "%choice%"=="3" (
+	echo __________________________________________________________________
+    	%tool3%
+)
+if "%choice%"=="4" (
+	echo __________________________________________________________________
+    	%tool4%
 )
 if "%choice%"=="?" (
 	start /b %help%
